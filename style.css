@@ -1,0 +1,38 @@
+:root{
+    --backgroundColor: rgba(96, 143, 132, 0.548);
+    --secondaryColor:rgb(136, 173, 166);
+    --btncolor: rgba(105, 124, 139, 0.798);
+}
+
+.container-fluid{
+    background-color: rgb(112, 99, 99);
+    padding-bottom: 50px;
+    margin:0 auto;
+    padding-top:30px;
+    border: 10px solid var(--btncolor);
+    border-radius:2%;
+
+    
+ 
+    
+}
+
+.background{
+    background-color: var(--backgroundColor);
+    color:white;
+    border: 2px solid var(--secondaryColor);
+    border-radius:5%;
+    box-shadow: 5px 5px 10px 1px rgba(121, 130, 134, 0.364), 5px 5px 10px 1px rgba(95, 126, 141, 0.709);
+  
+
+}
+.row{
+    gap:5px;
+}
+.col{
+    padding-bottom: 25px;
+    padding-top:10px;
+}
+#button{
+ background-color: var(--btncolor);
+}
