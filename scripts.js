@@ -289,7 +289,7 @@ function factor(){
 
                             }
          if(num2<i){
-           for(i=num2;i<(Math.abs(num2));i++)
+           for(i=num2;i<=(Math.abs(num2));i++)
              if(num2%i==0){
                      arr[temp]=i;
                      temp++;
